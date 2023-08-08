@@ -1,0 +1,144 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89ec07337a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+        <img src="red.png" alt="">
+        <div class="container">
+          <nav>
+            <div class="logo">
+            </div>
+            <ul>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-text">
+            <h1>Hello, <br>I'm <span>Devyani</span><br>Web Designer</h1>
+            <p>-Hi! I'm Web Developer- Creating beautiful and brave design for companies all across the world.</p>
+          </div>
+        </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="blue.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="s-title">About Me</h1>
+            <h3>Developer<span> and Designer</span></h3>
+            <p>I am web Developer.I can provide clean code and pixel perfect design.
+              I also make the website more and more interactive with unique web animations.
+              A responsive design makes your website accessible to all users, regardless of their device.
+              I have done many projects for my clients.</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+
+              <div class="tab-contents active-tab" id="experience">
+                <ul>
+                  <li><span>2023 - current</span><br>Web Development and Design internship at Oasis Infobyte</li>
+                  <li><span>2021 -2022</span><br>Web Development training at SNPIT&RC</li>
+                  <li><span>2020 - 2021</span><br>Flutter and Mobile Apllication Project for GDSC Task</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2021 - 2024</span><br>Bachelor Of Engineering In Computer Science And Engineering<br>SNPIT&RC-GTU<br>Pursuing<br>CGPA 9.61</li>
+                  <li><span>2018 - 2020</span><br>HSC Science with Maths<br>Vasishtha Genesis School<br>Completed with 74%</li>
+                  <li><span>2008 - 2018</span><br>SSC<br>Vasishtha Genesis School<br>Completed with 89%</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <div class="container">
+        <h1 class="s-title">My Skills</h1>
+        <div class="skills-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>-IDEA,WEBSITE,ADVERTISING,LOGO,
+              <br>CREATIVITY,PRODUCT,RESEARCH,DESIGN
+              <br>Basic Designing Tools,
+              <br>UX/UI And Visual Design,
+              <br>HTML & CSS,
+              <br>Web Server Management,
+              <br>Time Management,
+              <br>Communication</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>To work as a UI/UX Designer, i have a strong sense of
+              creativity and design principles,as well as excellent 
+              communication and collaboration skills will be a plus.
+              It is also necessary to have a basic understanding of 
+              user research, technical constraints, and prototyping 
+              tools.</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Mobile App Design</h2>
+            <p>Programming languages,
+              <br>Software development knowledge,
+              <br>Back-end computing,
+              <br>Cross-platform concepts,
+              <br>Cybersecurity skills,
+              <br>Agile development,
+              <br>Internet of Things (IoT) skills</p>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> devyanichauhan3947@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Surat,India-394320</p>
+            <div class="social-icons">
+              <a href="https://github.com/devyanijchauhan"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/devyani-jayeshbhai-chauhan-994302221/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="resume.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="7" placeholder="Your Message"></textarea> 
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="design">
+        <p>Made with <i class="fa-solid fa-heart"></i> By Devyani Chauhan</p>
+      </div>
+    </div> 
+    <script src="script.js"></script>
+  </body>
+  </html>
